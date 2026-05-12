@@ -18,7 +18,7 @@ export default function UnitCardTemplate() {
           {/* Top strip */}
           <div className="bg-[#121212] text-[#d8c298] px-6 py-3 flex items-center justify-between border-b border-[#7d6035]">
             <div className="uppercase tracking-[0.2em] text-sm font-serif">
-              № 27 · Линия Фронта
+              № 1 · Линия Фронта
             </div>
 
             <div className="w-24 h-24 rounded-full bg-[#171717] border-[4px] border-[#8e6d3b] flex items-center justify-center shadow-inner absolute right-6 top-5">
