@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+SC:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -13,9 +14,9 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+--sans: 'EB Garamond', serif;
+--heading: 'Cinzel', serif;
+--mono: 'Courier New', monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -30,6 +31,22 @@
   @media (max-width: 1024px) {
     font-size: 16px;
   }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant SC', serif;
+}
+
+.font-garamond {
+  font-family: 'EB Garamond', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,7 +77,6 @@ body {
   width: auto;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;

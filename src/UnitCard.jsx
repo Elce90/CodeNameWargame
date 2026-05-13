@@ -425,11 +425,11 @@ export default function UnitCardBuilder() {
                 {unitData.abilities.map((ability, index) => (
                   <div key={index}>
 
-                    <div className="text-3xl font-bold uppercase mb-3">
+                    <div className="text-lg font-bold uppercase mb-3">
                       {ability.title}
                     </div>
 
-                    <p className="text-lg leading-relaxed">
+                    <p className="text-base leading-relaxed">
                       {ability.text}
                     </p>
                   </div>
@@ -453,11 +453,11 @@ export default function UnitCardBuilder() {
 
                     <div>
 
-                      <div className="text-3xl font-bold uppercase mb-2">
+                      <div className="text-lg font-bold uppercase mb-2">
                         {card.title}
                       </div>
 
-                      <p className="text-lg leading-relaxed">
+                      <p className="text-base leading-relaxed">
                         {card.text}
                       </p>
                     </div>
